@@ -99,7 +99,7 @@
   top: 696px;
 }
 
-.resume .x01b87b2adbbbef22236ee5c132c2351d-1 {
+.resume .maheshabdelhadi {
   height: 429px;
   left: 0;
   object-fit: cover;
@@ -123,9 +123,10 @@
   font-size: var(--font-size-xxxxl);
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 10px;
+  margin-top: none;
+  line-height: 30px;
   margin-left: 3px;
-  min-height: 40px;
+  min-height: 4px;
   white-space: nowrap;
 }
 
@@ -135,8 +136,8 @@
   font-size: var(--font-size-xxxl);
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 10px;
-  margin-top: 10px;
+  line-height: 1px;
+  margin-top: none;
   min-height: 35px;
   white-space: nowrap;
 }
@@ -149,7 +150,7 @@
   letter-spacing: 0;
   line-height: 18.2px;
   margin-left: 3px;
-  margin-top: 38px;
+  margin-top: 20px;
   min-height: 19px;
   white-space: nowrap;
 }
@@ -163,14 +164,14 @@
 }
 
 .resume .info {
-  color: transparent;
+  color: var(--royal-blue);
   font-family: var(--font-family-actor);
   font-size: var(--font-size-m);
   font-weight: 400;
   letter-spacing: 0.11px;
-  line-height: 6.1px;
+  line-height: 15px;
   margin-left: 3px;
-  margin-top: 23px;
+  margin-top: 10px;
   min-height: 546px;
   width: 291px;
 }
@@ -179,10 +180,10 @@
   --black: #000000;
   --royal-blue: #3e45ec;
   --white: #ffffff;
- 
-  --font-size-l: 13.4px;
-  --font-size-m: 6.1px;
-  --font-size-xl: 32px;
+  --font-size-s: 8px;
+  --font-size-l: 10px;
+  --font-size-m: 10px;
+  --font-size-xl: 28px;
   --font-size-xxl: 32.3px;
   --font-size-xxxl: 60.6px;
   --font-size-xxxxl: 70.8px;
@@ -190,4 +191,18 @@
   --font-family-actor: "Actor", Helvetica;
 }
 
+hr {
+    height:5px;
+    border-width:0;
+    background-color:royalblue;
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;
+    height: 1px;
+}
 
+.grey{
+    color: grey;
+    font-size: var(--font-size-s)
+}
