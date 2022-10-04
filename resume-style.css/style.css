@@ -1,0 +1,193 @@
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* screen - resume */
+
+.resume {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 0px none;
+  display: flex;
+  gap: 3px;
+  width: 595px;
+}
+
+.resume .overlap-group {
+  height: 842px;
+  position: relative;
+  width: 291px;
+}
+
+.resume .rectangle-1 {
+  background-color: var(--royal-blue);
+  border: 1px solid;
+  border-color: var(--black);
+  height: 421px;
+  left: 0;
+  position: absolute;
+  top: 421px;
+  width: 287px;
+}
+
+.resume .address {
+  color: var(--white);
+  font-family: var(--font-family-actor);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  left: 66px;
+  letter-spacing: 0;
+  line-height: 7.5px;
+  position: absolute;
+  top: 520px;
+}
+
+.resume .contact-details {
+  color: var(--white);
+  font-family: var(--font-family-actor);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  left: 46px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 484px;
+  white-space: nowrap;
+}
+
+.resume .work-references {
+  color: var(--white);
+  font-family: var(--font-family-actor);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  left: 36px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 655px;
+  white-space: nowrap;
+}
+
+.resume .name {
+  color: var(--white);
+  font-family: var(--font-family-actor);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  left: 64px;
+  letter-spacing: 0;
+  line-height: 7.5px;
+  position: absolute;
+  top: 696px;
+}
+
+.resume .x01b87b2adbbbef22236ee5c132c2351d-1 {
+  height: 429px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 291px;
+}
+
+.resume .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 49px;
+  min-height: 752px;
+  width: 294px;
+}
+
+.resume .place {
+  color: var(--royal-blue);
+  font-family: var(--font-family-actor);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 10px;
+  margin-left: 3px;
+  min-height: 40px;
+  white-space: nowrap;
+}
+
+.resume .abdelhadi {
+  color: var(--royal-blue);
+  font-family: var(--font-family-actor);
+  font-size: var(--font-size-xxxl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 10px;
+  margin-top: 10px;
+  min-height: 35px;
+  white-space: nowrap;
+}
+
+.resume .ux-designer {
+  color: var(--royal-blue);
+  font-family: var(--font-family-actor);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  margin-left: 3px;
+  margin-top: 38px;
+  min-height: 19px;
+  white-space: nowrap;
+}
+
+.resume .line-1 {
+  height: 500px;
+  margin-left: 3px;
+  margin-top: 23px;
+  /* mix-blend-mode: darken; */
+  width: 276px;
+}
+
+.resume .info {
+  color: transparent;
+  font-family: var(--font-family-actor);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0.11px;
+  line-height: 6.1px;
+  margin-left: 3px;
+  margin-top: 23px;
+  min-height: 546px;
+  width: 291px;
+}
+
+:root { 
+  --black: #000000;
+  --royal-blue: #3e45ec;
+  --white: #ffffff;
+ 
+  --font-size-l: 13.4px;
+  --font-size-m: 6.1px;
+  --font-size-xl: 32px;
+  --font-size-xxl: 32.3px;
+  --font-size-xxxl: 60.6px;
+  --font-size-xxxxl: 70.8px;
+ 
+  --font-family-actor: "Actor", Helvetica;
+}
+
+
